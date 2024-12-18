@@ -9,6 +9,8 @@ Cheers :)
 If you wish to use uBlacklist or a host file, please refer to the original repository (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
 
 ## Installing the blocklist for uBlock Origin
+This version of the blocklist has two variants- one for most of the tabs in SearXNG (General, Videos, News, etc), and one for the Image tab exclusively.
+These differences exist to account for the fact that the original link of an image is obscured when using SearXNG's image proxy, and so the Image blocklist must instead use the 'Source' element of each image.
 
 ### Manual Import
 
@@ -21,8 +23,14 @@ If you wish to use uBlacklist or a host file, please refer to the original repos
 4. Look towards the bottom, and expand the ```Import``` button.
 
 5. Copy and paste this URL into the dialogue box: 
+
+For general:
 ```
-https://raw.githubusercontent.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/master/list.txt
+https://raw.githubusercontent.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/master/general.txt
+```
+For images:
+```
+https://raw.githubusercontent.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/master/images.txt
 ```
 
 6. Apply changes, and you're set!
@@ -43,15 +51,20 @@ Try creating a new session, aka closing **all** web browser windows, waiting unt
 
 ## Additional list(s)
 
-As of right now, there are two lists. The main default list, and the nuclear list.
+As of right now, there are four lists. The main general list (for all tabs excluding images) and the main images list (for the images tab only), both of which have an additinal nuclear list.
 
-The nuclear list has sites that contain a mix of authentic and AI generated imagery (eg. DeviantArt, Artstation, Stock Photography sites, etc), which make it tricky to outright block in the main filter list, so I've designated it to a separate list that you can toggle on and off if you so desire.
+The nuclear lists have sites that contain a mix of authentic and AI generated imagery (eg. DeviantArt, Artstation, Stock Photography sites, etc), which make it tricky to outright block in the main filter list, so I've designated it to separate lists that you can toggle on and off if you so desire.
 
 ### uBlock Origin
-In order to use the **Nuclear** list, do the same steps that you did in the section "Installing the blocklist for uBlock Origin", but instead of using the other url, use:
+In order to use the **Nuclear** lists, do the same steps that you did in the section "Installing the blocklist for uBlock Origin", but instead of using the other url, use:
 
+For general:
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/additional_list_nuclear.txt
+https://raw.githubusercontent.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/master/general_nuclear.txt
+```
+For images:
+```
+https://raw.githubusercontent.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/master/images_nuclear.txt
 ```
 
 ## Allowlisting sites
@@ -68,8 +81,14 @@ Here's how to do it.
 Boom! Now it's allowlisted!
 
 Or, if you don't want to go through that mumbo-jumbo, add this line in your filter list: 
+
+For general:
 ```
-#@#a[href*="example.com"]:upward(div):style(opacity:0.00!important;)
+#@#article[class*="result result"]:has(> a:contains("example.com"))
+```
+For images:
+```
+#@#article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("example.com"))
 ```
 
 Change "example.com" to the URL you want to allowlist. Copy & paste that in uBlock Origin's "My filters" list, and you're set!
@@ -81,14 +100,18 @@ It is possible to filter AI results based on keywords. It was originally in the 
 ### uBlock Origin
 In your personal filter list, you can use this template to add your own keywords you would like to block.
 
+For general:
 ```
-google.com,duckduckgo.com,bing.com##div>a:has-text(/Your Text Here/i):upward(div):style(opacity:0!important)
+article[class*="result result"]:has(> a:contains("Your Text Here"))
 ```
+For images:
+```
+article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("Your Text Here"))
+```
+
 Replace "Your Text Here" with your preferred keywords. A short list of **optional** procedural filters that you can use for uBlock Origin are listed below:
 
-```
-priv.au##article[class*="result result"]:has(> a > span[class="source"]:contains("example.com"))
-```
+
 
 ## Happy Pride Month!
 LGBTQ+ Rights! 🏳️‍🌈🏳️‍⚧️

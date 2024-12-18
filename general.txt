@@ -1,4 +1,4 @@
-! Title: Huge AI Blocklist (for SearXNG)
+! Title: Huge AI Blocklist (for SearXNG tabs excluding images)
 ! Expires: 1 day
 ! Description: A huge blocklist of sites that contain AI generated content for uBlock Origin (built to work with searXNG-based search engines).
 ! Homepage: https://github.com/ImperitusSoftware/AI-Blocklist-for-SearXNG
@@ -8,7 +8,6 @@
 !
 ! To add more sites, please PR the original repository at https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
 ! This repo will regularly sync with the original when new sites are added.
-! However, please do open an Issue or PR to add a new SearXNG based search engine
 ! Cheers :)
 
 ! HAPPY PRIDE MONTH
