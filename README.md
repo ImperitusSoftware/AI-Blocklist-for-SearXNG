@@ -102,11 +102,11 @@ In your personal filter list, you can use this template to add your own keywords
 
 For general:
 ```
-##article[class*="result result"]:has(> a:contains("Your Text Here"))
+*##article[class*="result result"]:has(> a:contains("Your Text Here"))
 ```
 For images:
 ```
-##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("Your Text Here"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("Your Text Here"))
 ```
 
 Replace "Your Text Here" with your preferred keywords. A short list of **optional** procedural filters that you can use for uBlock Origin are listed below:
