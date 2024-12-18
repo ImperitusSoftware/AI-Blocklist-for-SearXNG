@@ -1,0 +1,82 @@
+! Title: NUCLEAR AI Blocklist
+! Expires: 1 day
+! Description: A blocklist of sites that contain a mix of both AI generated content and authentic imagery, for uBlock Origin.
+! Homepage: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
+!
+! Issues: https://github.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/issues
+! PRs: https://github.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/pulls
+!
+! To add more sites, please PR the original repository at https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
+! This repo will regularly sync with the original when new sites are added.
+! However, please do open an Issue or PR to add a new SearXNG based search engine
+! Cheers :)
+
+! //// Going NUCLEAR!!! (sites that have a lot of AI "art"/heavily support AI "art", but also have some authentic artwork)
+
+priv.au##article[class*="result result"]:has(> a:contains("stock.adobe.com"))
+priv.au##article[class*="result result"]:has(> a:contains("designbundles.net"))
+priv.au##article[class*="result result"]:has(> a:contains("freepixel.com"))
+priv.au##article[class*="result result"]:has(> a:contains("artmajeur.com"))
+priv.au##article[class*="result result"]:has(> a:contains("artpal.com"))
+priv.au##article[class*="result result"]:has(> a:contains("freepik.com"))
+priv.au##article[class*="result result"]:has(> a:contains("freepik.es"))
+priv.au##article[class*="result result"]:has(> a:contains("shutterstock.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pixtastock.com"))
+priv.au##article[class*="result result"]:has(> a:contains("redbubble.com"))
+priv.au##article[class*="result result"]:has(> a:contains("3tdesign.edu.vn"))
+priv.au##article[class*="result result"]:has(> a:contains("artstation.com"))
+priv.au##article[class*="result result"]:has(> a:contains("deviantart.com"))
+priv.au##article[class*="result result"]:has(> a:contains("alamy.com"))
+priv.au##article[class*="result result"]:has(> a:contains("vecteezy.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pixabay.com"))
+priv.au##article[class*="result result"]:has(> a:contains("dreamstime.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pngtree.com"))
+priv.au##article[class*="result result"]:has(> a:contains("peakpx.com.com"))
+priv.au##article[class*="result result"]:has(> a:contains("lunarmimi.net"))
+priv.au##article[class*="result result"]:has(> a:contains("displate.com"))
+priv.au##article[class*="result result"]:has(> a:contains("inprnt.com"))
+priv.au##article[class*="result result"]:has(> a:contains("europosters.eu"))
+priv.au##article[class*="result result"]:has(> a:contains("pinterest.com"))
+priv.au##article[class*="result result"]:has(> a:contains("etsy.com"))
+priv.au##article[class*="result result"]:has(> a:contains("123rf.com"))
+priv.au##article[class*="result result"]:has(> a:contains("creativefabrica.com"))
+priv.au##article[class*="result result"]:has(> a:contains("vanasplus.com"))
+priv.au##article[class*="result result"]:has(> a:contains("downgraf.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pinterest.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pinterest.com/Sereneshell"))
+priv.au##article[class*="result result"]:has(> a:contains("uxdesign.cc"))
+priv.au##article[class*="result result"]:has(> a:contains("geekysweetie.com"))
+priv.au##article[class*="result result"]:has(> a:contains("reddit.com/r/100Kanojo"))
+priv.au##article[class*="result result"]:has(> a:contains("medium.com"))
+priv.au##article[class*="result result"]:has(> a:contains("imgchest.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pixels.com"))
+priv.au##article[class*="result result"]:has(> a:contains("gachax.com/anime"))
+priv.au##article[class*="result result"]:has(> a:contains("gettywallpapers.com"))
+priv.au##article[class*="result result"]:has(> a:contains("abposters.com"))
+priv.au##article[class*="result result"]:has(> a:contains("posterlounge.com"))
+priv.au##article[class*="result result"]:has(> a:contains("uhdpaper.com"))
+priv.au##article[class*="result result"]:has(> a:contains("wallhere.com"))
+priv.au##article[class*="result result"]:has(> a:contains("thehungryjpeg.com"))
+priv.au##article[class*="result result"]:has(> a:contains("thirstymag.com"))
+priv.au##article[class*="result result"]:has(> a:contains("kemono.su"))
+priv.au##article[class*="result result"]:has(> a:contains("kemono.party"))
+priv.au##article[class*="result result"]:has(> a:contains("alphacoders.com"))
+priv.au##article[class*="result result"]:has(> a:contains("rollingpress.co.ke"))
+
+! // Content Aggregators/SEO spam
+priv.au##article[class*="result result"]:has(> a:contains("tnhelearning.edu.vn"))
+
+! // Things that use Anthropic, Open AI, etc api/backend/models, but its usage is abnormal to that of gAI image or chat models
+priv.au##article[class*="result result"]:has(> a:contains("talpasearch.com"))
+
+! // Subreddits
+priv.au##article[class*="result result"]:has(> a:contains("reddit.com/r/CatgirlSFW"))
+priv.au##article[class*="result result"]:has(> a:contains("reddit.com/r/MildFemboys"))
+priv.au##article[class*="result result"]:has(> a:contains("100Kanojo"))
+
+! // Pinterest
+priv.au##article[class*="result result"]:has(> a:contains("pinterest.com"))
+priv.au##article[class*="result result"]:has(> a:contains("pinterest.com/Sereneshell"))
+
+! // Alternate App Stores
+priv.au##article[class*="result result"]:has(> a:contains("cafebazaar.ir"))
