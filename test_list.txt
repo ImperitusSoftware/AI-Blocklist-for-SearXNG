@@ -20,4 +20,4 @@
 
 !//// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
 
-priv.au##article[class*="result result"]:has(> a[href="https://caiyon.com"])
+priv.au##article[class*="result result"]:has(> a[href*="caiyon.com"])
