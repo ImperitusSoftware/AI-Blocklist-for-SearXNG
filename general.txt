@@ -1794,19 +1794,3 @@
 
 ! // Redbubble Accounts
 *##article[class*="result result"]:has(> a:contains("redbubble.com/people/digitalemporio/shop"))
-
-
-! // Google AI Overview
-google.com##.YzCcne:remove()
-
-
-! // GitHub Copilot
-github.com##div > button[data-testid="copilot-popover-button"]
-github.com##div.AppHeader-CopilotChat
-github.com##div.copilotPreview__container
-github.com##li > a[href="/copilot"]
-
-
-! // Just in case exceptions
-mail.google.com#@#a[href*="/play.ht"))
-mail.google.com#@#a[href*=".play.ht"))
