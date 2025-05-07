@@ -1,7 +1,7 @@
-! Title: NUCLEAR AI Blocklist (for SearXNG images tab)
+! Title: Huge AI Blocklist (for SearXNG images tab)
 ! Expires: 1 day
-! Description: A blocklist of sites that contain a mix of both AI generated content and authentic imagery, for uBlock Origin.
-! Homepage: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
+! Description: A huge blocklist of sites that contain AI generated content for uBlock Origin (built to work with searXNG-based search engines).
+! Homepage: https://github.com/ImperitusSoftware/AI-Blocklist-for-SearXNG
 !
 ! Issues: https://github.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/issues
 ! PRs: https://github.com/ImperitusSoftware/AI-Blocklist-for-SearXNG/pulls
@@ -9,6 +9,19 @@
 ! To add more sites, please PR the original repository at https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
 ! This repo will regularly sync with the original when new sites are added.
 ! Cheers :)
+
+! HAPPY PRIDE MONTH
+
+! Please support authentic artists! Whether it be commissions or donations, an amount of any size helps!
+
+! I love you.
+! You are valid.
+! LGBTQ+ Rights!
+! Keep your chin up--we will get through this together <33
+! Have a happy day!
+
+
+
 
 ! //// Going NUCLEAR!!! (sites that have a lot of AI "art"/heavily support AI "art", but also have some authentic artwork)
 
@@ -84,3 +97,81 @@
 
 ! // Alternate App Stores
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("cafebazaar.ir"))
+
+! /////////////
+! Google version
+
+! //// Going NUCLEAR!!! (sites that have a lot of AI "art"/heavily support AI "art", but also have some authentic artwork)
+
+google.com##a[href*="stock.adobe.com"]:upward(2):remove()
+google.com##a[href*="designbundles.net"]:upward(2):remove()
+google.com##a[href*="freepixel.com"]:upward(2):remove()
+google.com##a[href*="artmajeur.com"]:upward(2):remove()
+google.com##a[href*="artpal.com"]:upward(2):remove()
+google.com##a[href*="freepik.com"]:upward(2):remove()
+google.com##a[href*="freepik.es"]:upward(2):remove()
+google.com##a[href*="shutterstock.com"]:upward(2):remove()
+google.com##a[href*="pixtastock.com"]:upward(2):remove()
+google.com##a[href*="redbubble.com"]:upward(2):remove()
+google.com##a[href*="3tdesign.edu.vn"]:upward(2):remove()
+google.com##a[href*="artstation.com"]:upward(2):remove()
+google.com##a[href*="deviantart.com"]:upward(2):remove()
+google.com##a[href*="alamy.com"]:upward(2):remove()
+google.com##a[href*="vecteezy.com"]:upward(2):remove()
+google.com##a[href*="pixabay.com"]:upward(2):remove()
+google.com##a[href*="dreamstime.com"]:upward(2):remove()
+google.com##a[href*="pngtree.com"]:upward(2):remove()
+google.com##a[href*="peakpx.com.com"]:upward(2):remove()
+google.com##a[href*="lunarmimi.net"]:upward(2):remove()
+google.com##a[href*="displate.com"]:upward(2):remove()
+google.com##a[href*="inprnt.com"]:upward(2):remove()
+google.com##a[href*="europosters.eu"]:upward(2):remove()
+google.com##a[href*="pinterest.com"]:upward(2):remove()
+google.com##a[href*="etsy.com"]:upward(2):remove()
+google.com##a[href*="123rf.com"]:upward(2):remove()
+google.com##a[href*="creativefabrica.com"]:upward(2):remove()
+google.com##a[href*="vanasplus.com"]:upward(2):remove()
+google.com##a[href*="downgraf.com"]:upward(2):remove()
+google.com##a[href*="pinterest.com"]:upward(2):remove()
+google.com##a[href*="pinterest.com/Sereneshell"]:upward(2):remove()
+google.com##a[href*="uxdesign.cc"]:upward(2):remove()
+google.com##a[href*="geekysweetie.com"]:upward(2):remove()
+google.com##a[href*="reddit.com/r/100Kanojo"]:upward(2):remove()
+google.com##a[href*="medium.com"]:upward(2):remove()
+google.com##a[href*="imgchest.com"]:upward(2):remove()
+google.com##a[href*="pixels.com"]:upward(2):remove()
+google.com##a[href*="gachax.com/anime"]:upward(2):remove()
+google.com##a[href*="gettywallpapers.com"]:upward(2):remove()
+google.com##a[href*="abposters.com"]:upward(2):remove()
+google.com##a[href*="posterlounge.com"]:upward(2):remove()
+google.com##a[href*="uhdpaper.com"]:upward(2):remove()
+google.com##a[href*="wallhere.com"]:upward(2):remove()
+google.com##a[href*="thehungryjpeg.com"]:upward(2):remove()
+google.com##a[href*="thirstymag.com"]:upward(2):remove()
+google.com##a[href*="kemono.su"]:upward(2):remove()
+google.com##a[href*="kemono.party"]:upward(2):remove()
+google.com##a[href*="alphacoders.com"]:upward(2):remove()
+google.com##a[href*="rollingpress.co.ke"]:upward(2):remove()
+google.com##a[href*="ukposters.co.uk"]:upward(2):remove()
+google.com##a[href*="redbrokoly.com"]:upward(2):remove()
+google.com##a[href*="nbcsport.co.uk"]:upward(2):remove()
+google.com##a[href*="jungleai.com"]:upward(2):remove()
+google.com##a[href*="dende.ai"]:upward(2):remove()
+
+! // Content Aggregators/SEO spam
+google.com##a[href*="tnhelearning.edu.vn"]:upward(2):remove()
+
+! // Things that use Anthropic, Open AI, etc api/backend/models, but its usage is abnormal to that of gAI image or chat models
+google.com##a[href*="talpasearch.com"]:upward(2):remove()
+
+! // Subreddits
+google.com##a[href*="reddit.com/r/CatgirlSFW"]:upward(2):remove()
+google.com##a[href*="reddit.com/r/MildFemboys"]:upward(2):remove()
+google.com##a[href*="100Kanojo"]:upward(2):remove()
+
+! // Pinterest
+google.com##a[href*="pinterest.com"]:upward(2):remove()
+google.com##a[href*="pinterest.com/Sereneshell"]:upward(2):remove()
+
+! // Alternate App Stores
+google.com##a[href*="cafebazaar.ir"]:upward(2):remove()

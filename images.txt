@@ -21,7 +21,8 @@
 ! Have a happy day!
 
 
-!//// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
+
+! //// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
 
 ! Sites that have .ai domain extension
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("forkful.ai"))
@@ -361,6 +362,9 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("typli.ai"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("yeschat.ai"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("boodlebox.ai"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("sunoai.ai"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("thetawise.ai"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("imagineanything.ai"))
 
 
 ! Sites that have .com domain extension
@@ -677,8 +681,15 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("catsaroundtheglobe.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("runcomfy.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("aipromptsdirectory.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("duolingoguides.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("songtell.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("prompt-com.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("deepseek.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("peopleai.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("airportcalgary.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("dogbreedadvice.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("drawatoon.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("suno.com"))
 
 
 ! Sites that have .art domain extension
@@ -824,6 +835,7 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("heatware.net"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("bigshadows.net"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("eyecandy.net"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("jeddahairport.net"))
 
 
 ! Sites that have miscellaneous domain extensions (.pub, .io, .cc, et cetera)
@@ -985,6 +997,8 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("groundabout.coffee"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("igot.coffee"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("manuals.plus"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("spca.education"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("sunoai.asia"))
 
 
 ! Google Play AI applications
@@ -1785,3 +1799,17 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("behance.net/gallery/190706335/Digital-Art"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("behance.net/gallery/210948839/Space-Kitty"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("behance.net/gallery/210345701/A-Jewel-in-the-Sky"))
+
+
+! // [Placeholder] Operation: Baby Peacock (Removing AI-generated Animal Misinformation/Images; Non-categorized)
+
+
+! // Redbubble (standalone pins)
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("redbubble.com/i/pin/Steampunk-female-portrait-Cel-shading-Japan-anime-style-by-DigitalEmporio/152924525.NP9QY"))
+
+
+! // Redbubble Accounts
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("redbubble.com/people/digitalemporio/shop"))
+
+
+
