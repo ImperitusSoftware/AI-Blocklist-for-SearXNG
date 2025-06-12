@@ -689,6 +689,7 @@
 *##article[class*="result result"]:has(> a:contains("dogbreedadvice.com"))
 *##article[class*="result result"]:has(> a:contains("drawatoon.com"))
 *##article[class*="result result"]:has(> a:contains("suno.com"))
+*##article[class*="result result"]:has(> a:contains("buddhaweekly.com"))
 
 
 ! Sites that have .art domain extension
@@ -998,6 +999,7 @@
 *##article[class*="result result"]:has(> a:contains("manuals.plus"))
 *##article[class*="result result"]:has(> a:contains("spca.education"))
 *##article[class*="result result"]:has(> a:contains("sunoai.asia"))
+*##article[class*="result result"]:has(> a:contains("diffus.me"))
 
 
 ! Google Play AI applications

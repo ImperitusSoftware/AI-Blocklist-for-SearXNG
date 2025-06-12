@@ -690,6 +690,7 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("dogbreedadvice.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("drawatoon.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("suno.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("buddhaweekly.com"))
 
 
 ! Sites that have .art domain extension
@@ -999,6 +1000,7 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("manuals.plus"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("spca.education"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("sunoai.asia"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("diffus.me"))
 
 
 ! Google Play AI applications
