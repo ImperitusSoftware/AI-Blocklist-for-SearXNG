@@ -691,6 +691,9 @@
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("drawatoon.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("suno.com"))
 *##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("buddhaweekly.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("softhandtech.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("netwrck.com"))
+*##article[class*="result result-images category-images"]:has(> a > span[class="source"]:contains("civitaiarchive.com"))
 
 
 ! Sites that have .art domain extension

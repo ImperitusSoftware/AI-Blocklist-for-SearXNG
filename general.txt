@@ -690,6 +690,9 @@
 *##article[class*="result result"]:has(> a:contains("drawatoon.com"))
 *##article[class*="result result"]:has(> a:contains("suno.com"))
 *##article[class*="result result"]:has(> a:contains("buddhaweekly.com"))
+*##article[class*="result result"]:has(> a:contains("softhandtech.com"))
+*##article[class*="result result"]:has(> a:contains("netwrck.com"))
+*##article[class*="result result"]:has(> a:contains("civitaiarchive.com"))
 
 
 ! Sites that have .art domain extension
